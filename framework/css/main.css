@@ -42,3 +42,9 @@ p {
     padding: 20px;
     margin: 10px;
 }
+
+@media only screen and (max-width:500px){
+	p{
+		display:none;
+	}
+}

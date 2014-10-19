@@ -1,16 +1,23 @@
-h1{
-	color:green;
+h1,h3,h4{
+	color:#747774;
+}
+h2,href{
+	color:#BCBBBB;
 }
 *{
 	border:1px solid red !important;
+	font-family: 'Lato', sans-serif;
 }
 *{
 	-webkit-box-sizing:border-box;
 	-moz-box-siizng:border-box;
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
-}
 
+}
+.container{
+	width: 1000px;
+}
 .row{
 	width: 100%;
 	display: flex;
@@ -31,16 +38,17 @@ h1{
 .col-5{
 	width:41.66%;
 }
+.col-6{
+	width:50%;
+}
 .col-9{
 	width:75%;
 }
 .col-10{
 	width:83.32%;
 }
-
-p {
-    padding: 20px;
-    margin: 10px;
+.col-12{
+	width: 100%;
 }
 
 @media only screen and (max-width:500px){

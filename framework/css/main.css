@@ -1,8 +1,27 @@
-h1,h3,h4{
+h1,h3,h4,a{
 	color:#747774;
 }
-h2,href{
+h2,hr{
 	color:#BCBBBB;
+}
+hr{
+	border: 2px solid;
+	margin-bottom: 30px;
+}
+h1{
+	font-size:-webkit-xxx-large;
+	font-weight: 100;
+}
+h2{
+	font-size:xx-large;
+}
+h4{
+	font-size:xx-large;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+a href{
+	font-weight: 100;
 }
 *{
 	border:1px solid red !important;
@@ -17,6 +36,8 @@ h2,href{
 }
 .container{
 	width: 1000px;
+	margin-right: 10%;
+	margin-left: 10%
 }
 .row{
 	width: 100%;
@@ -49,8 +70,11 @@ h2,href{
 }
 .col-12{
 	width: 100%;
-}
 
+}
+.col-12,.col-4{
+	text-align: center;
+}
 @media only screen and (max-width:500px){
 	p{
 		display:none;

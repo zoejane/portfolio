@@ -1,4 +1,18 @@
+.container{
+}
+*{
+	border: 1px solid red !important;
+}
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-siizng:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
 
+}
+body{
+	text-align: center;
+}
 .row{
 	display: flex;
 	flex-wrap:wrap;
